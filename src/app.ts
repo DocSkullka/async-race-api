@@ -7,8 +7,3 @@ win()
 garage()
 addingCars()
 startStop()
-
-
-
-
-
