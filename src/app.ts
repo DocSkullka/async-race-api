@@ -2,8 +2,9 @@ import './style.scss'
 
 
 
+
     let i = 1
-    let road = `<div class="blockCar"><div class="settInfo"><button class="select">Select</button><button class="remove">Remove</button><div class="namCar">Name</div></div><div class="road"><div class="startStop"><button class="start">A</button><button class="stop" disabled/>B</button></div><div class="way"> <img class="carImg" src="('/async-race-api/public/assets/car.png')" alt="car"><img class="flag" src="/async-race-api/public/assets/flag.png')" alt="flag"></div></div></div>`
+    let road = `<div class="blockCar"><div class="settInfo"><button class="select">Select</button><button class="remove">Remove</button><div class="namCar">Name</div></div><div class="road"><div class="startStop"><button class="start">A</button><button class="stop" disabled/>B</button></div><div class="way"> <img class="carImg" src="./assets/car.png" alt="car"><img class="flag" src="./assets/flag.png" alt="flag"></div></div></div>`
     
     
     document.querySelector(".cars").innerHTML = road
