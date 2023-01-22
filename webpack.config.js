@@ -1,6 +1,7 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 
 module.exports = {
@@ -16,6 +17,11 @@ module.exports = {
   }),
      new HtmlWebpackPlugin({
        template: './src/index.html'
+      }),
+      new CopyPlugin({
+        patterns: [
+          { from: 'src/assets', to: 'assets'},
+        ],
       })
   ],
   module: {
@@ -23,9 +29,6 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|svg)$/,
         type: 'asset/resource',
-        generator: {
-          filename: 'assets/[name].[ext]'
-        }
       },
       {
         test: /\.(sa|sc|c)ss$/,
@@ -50,5 +53,6 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "public"),
+    assetModuleFilename: 'assets/[name][ext]',
   },
 };

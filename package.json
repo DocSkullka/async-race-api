@@ -13,6 +13,7 @@
   "author": "mikhama",
   "license": "MIT",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
