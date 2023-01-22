@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+}
+
+button{
+    border-radius: 5px;
+    border: 0px;
+}
+.topButt{
+    margin-bottom: 80px;
+}
+.topButt button{
+    background-color: forestgreen;
+}
+
+.inpCol{
+    width: 30px;
+    height: 21px;
+}
+
+.divCreat{
+    gap: 10px;
+}
+.divCreat button{
+   background-color: cadetblue;
+}
+.race, .reset{
+    background-color: forestgreen;
+}
+.generate{
+    background-color: darkcyan;
+}
+.settingsCars{
+    display: flex;
+    flex-direction: column;
+}
+.inpCreat, .inpUpdate{
+    margin-right: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.create, .update{
+    width: 100px;
+    margin-left: 10px;
+}
+button:hover{
+    background: rgba(86, 93, 104, 0.575);
+    color: black
+}
+
+h2, h3{
+    color: white;
+}
+
+/*******************************************************/
+
+.settInfo{
+    display: flex;
+    color: white;
+}
+
+.settInfo button{
+    width: 70px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: darkcyan;
+}
+
+.namCar{
+    margin: 0px;
+    margin-left: 10px;
+}
+.road{
+    display: flex;
+    position: relative;
+    border-bottom: dotted white ;
+}
+.startStop{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.way{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    gap: 75%;
+}
+.carImg{
+    background-color:forestgreen;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+}
+.flag {
+    width: 40px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.startStop{
+    margin-right: 0px;
+}
+.start{
+    margin-bottom: 5px;
+    color: forestgreen;
+    font-size: 15px;
+    border: solid 1.5px ;
+}
+.stop{
+    color: red;
+    border: solid 1.5px;
+    font-size: 15px;
+}
+.startStop button{
+    height: 20px;
+
+}
+
+/***************************Page Winners**********/
+
+.sortCat{
+    color: white;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.winnButt button{
+    width: 60px;
+    background-color:darkcyan;
+}
