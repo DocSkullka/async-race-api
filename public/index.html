@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+    <header class="header">
+        <div class="topButt">
+            <button class="buttGarage">To Garage</button>
+            <button class="buttWinners">To Winners</button>
+        </div>
+        <div class="garage1">
+            <div class="settingsCars">
+                <div class="divCreat">
+                    <input class="inpCreat" type="text"><input class="inpCol createColor" type="color" value="#6f2995"> <button class="create">Create</button>
+                </div>
+                <div class="divCreat">
+                <input class="inpUpdate" type="text"><input class="inpCol" type="color" value="#6f2995"> <button class="update">Update</button>
+            </div>
+            <div class="buttControl">
+                <button class="race">RACE</button>
+                <button class="reset">RESET</button>
+                <button class="generate">GENERATE CARS</button>
+            </div>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <div class="garage">
+            <h2>GARAGE</h2>
+            <h3>Page</h3>
+
+            <div class="cars"></div>
+        </div>
+        <div class="winners" style="display: none;">
+            <h2>WINNERS</h2>
+            <h3>Page</h3>
+            <div class="sortCat">
+                <div class="num">Number</div>
+                <div class="car">Car</div>
+                <div class="name">Name</div>
+                <div class="wins">Wins</div>
+                <div class="time">Best time(seconds)</div>
+            </div>
+            <div class="winnButt">
+                <button class="winnPrev">Prev</button>
+                <button class="winnNext">Next</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
