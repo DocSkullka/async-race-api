@@ -14,14 +14,24 @@ export function startStop() {
 
 export function race() {
     document.querySelector('.race').addEventListener('click', function(){
-        document.querySelectorAll('.start').forEach(function(){})
+        document.querySelectorAll('.start').forEach(function(el:any){
+            el.disabled = true
+        })
+        document.querySelectorAll('.stop').forEach(function(el:any){
+            el.disabled = false
+        })
     })
 }
 
 
 export function reset() {
     document.querySelector('.reset').addEventListener('click', function(){
-        alert('hui')
+        document.querySelectorAll('.stop').forEach(function(el:any){
+            el.disabled = true
+        })
+        document.querySelectorAll('.start').forEach(function(el:any){
+            el.disabled = false
+        })
         
     })
 }
