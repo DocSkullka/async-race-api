@@ -90,6 +90,7 @@ h2, h3{
     width: 70px;
     height: 50px;
     position: absolute;
+    left: 45px;
 }
 .flag {
     width: 40px;
@@ -129,3 +130,22 @@ h2, h3{
     width: 60px;
     background-color:darkcyan;
 }
+
+
+/********/
+
+
+.num {
+    display: none;
+  }
+  .paginator {
+    line-height: 150%;
+  }
+  .paginator > span {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .paginator_active {
+    color: red;
+  }
