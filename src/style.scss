@@ -44,6 +44,7 @@ button{
     margin-left: 10px;
 }
 button:hover{
+    cursor: pointer;
     background: rgba(86, 93, 104, 0.575);
     color: black
 }
@@ -128,4 +129,22 @@ h2, h3{
 .winnButt button{
     width: 60px;
     background-color:darkcyan;
+}
+
+.backNextButton{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    button{
+        width: 100px;
+        background-color:darkcyan;
+    }
+    button:hover{
+        background: rgba(86, 93, 104, 0.575);
+        color: black
+    }
+}
+
+.blockCar{
+    margin-bottom: 10px;
 }
