@@ -44,6 +44,7 @@ button{
     margin-left: 10px;
 }
 button:hover{
+    cursor: pointer;
     background: rgba(86, 93, 104, 0.575);
     color: black
 }
@@ -90,6 +91,7 @@ h2, h3{
     width: 70px;
     height: 50px;
     position: absolute;
+    left: 45px;
 }
 .flag {
     width: 40px;
@@ -128,4 +130,41 @@ h2, h3{
 .winnButt button{
     width: 60px;
     background-color:darkcyan;
+}
+
+
+/********/
+
+
+.num {
+    display: none;
+  }
+  .paginator {
+    line-height: 150%;
+  }
+  .paginator > span {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .paginator_active {
+    color: red;
+  }
+
+.backNextButton{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    button{
+        width: 100px;
+        background-color:darkcyan;
+    }
+    button:hover{
+        background: rgba(86, 93, 104, 0.575);
+        color: black
+    }
+}
+
+.blockCar{
+    margin-bottom: 10px;
 }
